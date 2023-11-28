@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicules", "Vehicules\Vehicules.csproj", "{8301B70D-A57C-4E70-938B-48D33F98A782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicules", "Vehicules\Vehicules.csproj", "{8301B70D-A57C-4E70-938B-48D33F98A782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liasse", "Liasse\Liasse.csproj", "{9858F9AD-D966-435C-A0C4-26A09E5FDCAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liasse", "Liasse\Liasse.csproj", "{9858F9AD-D966-435C-A0C4-26A09E5FDCAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiasseVierge", "LiasseVierge\LiasseVierge.csproj", "{D8034122-E646-420A-99C0-78B2A09D078E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9858F9AD-D966-435C-A0C4-26A09E5FDCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9858F9AD-D966-435C-A0C4-26A09E5FDCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9858F9AD-D966-435C-A0C4-26A09E5FDCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8034122-E646-420A-99C0-78B2A09D078E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8034122-E646-420A-99C0-78B2A09D078E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8034122-E646-420A-99C0-78B2A09D078E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8034122-E646-420A-99C0-78B2A09D078E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
