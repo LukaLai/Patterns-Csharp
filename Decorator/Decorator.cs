@@ -52,7 +52,7 @@ class CafeVanille : ICafe
   {
     cafe = cafeinter ?? throw new ArgumentNullException("cafe", "not null");
   }
-  public int GetCost()
+  public int GetPrix()
   {
     return cafe.GetPrix() + 1;
   }
