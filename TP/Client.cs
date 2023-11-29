@@ -32,6 +32,16 @@ namespace TP
 
         }
 
+        public static void ListerClients(List<Client> clients)
+        {
+            Console.WriteLine("Liste des clients :");
+
+            foreach (var client in clients)
+            {
+                Console.WriteLine($"Nom: {client.Nom}, Prénom: {client.Prenom}, Adresse: {client.Ville}, Code postal: {client.CP}, Email: {client.Mail}");
+            }
+        }
+
         public void SupprimeClient()
         {
 

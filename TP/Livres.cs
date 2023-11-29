@@ -27,6 +27,16 @@ namespace TP
         {
         }
 
+        public static void ListerLivres(List<Livres> livres)
+        {
+
+            Console.WriteLine("Voici la liste des livres disponibles :");
+
+            foreach (var livre in livres)
+            {
+                Console.WriteLine($"Titre : {livre.Titre}, Auteur : {livre.Auteur}, Catégorie : {livre.Categorie}, Langue : {livre.Langue}, Date de publication : {livre.Date}");
+            }
+        }
 
     }
 
